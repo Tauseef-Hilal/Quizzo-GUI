@@ -1,0 +1,1102 @@
+[
+    {
+        "id": 1,
+        "question": "The more you take, the more you leave behind! What am I?",
+        "answer": "Footprint",
+        "options": [
+            "Ground",
+            "Footprint",
+            "Time",
+            "Air"
+        ]
+    },
+    {
+        "id": 2,
+        "question": "I have many keys, but cannot open a single door! What am I?",
+        "answer": "Piano",
+        "options": [
+            "Piano",
+            "Lock",
+            "Safe",
+            "KeyChain"
+        ]
+    },
+    {
+        "id": 3,
+        "question": "I have three hands which always turn in the same direction! What am I?",
+        "answer": "Clock",
+        "options": [
+            "Triangle",
+            "Fan",
+            "Tritium",
+            "Clock"
+        ]
+    },
+    {
+        "id": 4,
+        "question": "What belongs to you, but other people use it more than you?",
+        "answer": "Name",
+        "options": [
+            "Fame",
+            "Money",
+            "Name",
+            "Phone"
+        ]
+    },
+    {
+        "id": 5,
+        "question": "What has a head, a tail, is brown, and has no legs?",
+        "answer": "Penny",
+        "options": [
+            "Snake",
+            "Penny",
+            "Worm",
+            "Cow"
+        ]
+    },
+    {
+        "id": 6,
+        "question": "Which one of the following salts does not contain water of crystallisation?",
+        "answer": "Baking Soda",
+        "options": [
+            "Blue Vitriol",
+            "Baking Soda",
+            "Washing Soda",
+            "Gypsum"
+        ]
+    },
+    {
+        "id": 7,
+        "question": "Tomato is a natural source of which acid?",
+        "answer": "Oxalic Acid",
+        "options": [
+            "Acetic Acid",
+            "Citric Acid",
+            "Tartaric Acid",
+            "Oxalic Acid"
+        ]
+    },
+    {
+        "id": 8,
+        "question": "How many water molecules does Gypsum contain?",
+        "answer": "2",
+        "options": [
+            "5",
+            "7",
+            "2",
+            "10"
+        ]
+    },
+    {
+        "id": 9,
+        "question": "Rain is called said to be acidic when its pH is:",
+        "answer": "Below 5.6",
+        "options": [
+            "Below 7",
+            "Below 6",
+            "Above 7",
+            "Below 5.6"
+        ]
+    },
+    {
+        "id": 10,
+        "question": "How many isomers does pentane have?",
+        "answer": "3",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ]
+    },
+    {
+        "id": 11,
+        "question": "What is the atomic number of Oxygen atom?",
+        "answer": "8",
+        "options": [
+            "7",
+            "4",
+            "14",
+            "8"
+        ]
+    },
+    {
+        "id": 12,
+        "question": "What is the gram atomic mass of Sulphur?",
+        "answer": "32g",
+        "options": [
+            "16g",
+            "24g",
+            "32g",
+            "42g"
+        ]
+    },
+    {
+        "id": 13,
+        "question": "The longest fibre on the cell body of a neuron is called:",
+        "answer": "Axon",
+        "options": [
+            "Sheath",
+            "Axon",
+            "Dendrites",
+            "Cytoplasm"
+        ]
+    },
+    {
+        "id": 14,
+        "question": "The highest coordinating centre in the human body is:",
+        "answer": "Brain",
+        "options": [
+            "Brain",
+            "Spinal Cord",
+            "Heart",
+            "Kidney"
+        ]
+    },
+    {
+        "id": 15,
+        "question": "What is the main function of Cerebrum?",
+        "answer": "Thinking",
+        "options": [
+            "Hearing",
+            "Thinking",
+            "Memory",
+            "Balancing"
+        ]
+    },
+    {
+        "id": 16,
+        "question": "A diabetic patient suffers from deficiency of which hormone?",
+        "answer": "Insulin",
+        "options": [
+            "Oestrogen",
+            "Testosterone",
+            "Insulin",
+            "Thyroxine"
+        ]
+    },
+    {
+        "id": 17,
+        "question": "Which of the following is biodegradable?",
+        "answer": "Cowdung",
+        "options": [
+            "Aluminium Can",
+            "Cowdung",
+            "DDT",
+            "Polythene"
+        ]
+    },
+    {
+        "id": 18,
+        "question": "Which of the following chemicals causes depletion of the ozone layer?",
+        "answer": "CFCs",
+        "options": [
+            "Carbon Tetrachloride",
+            "CFCs",
+            "Methane",
+            "Carbon Monoxide"
+        ]
+    },
+    {
+        "id": 19,
+        "question": "The depletion of the ozone layer causes:",
+        "answer": "Increased UV radiations",
+        "options": [
+            "Global Warming",
+            "Acid Rain",
+            "Increased UV radiations",
+            "Earthquakes"
+        ]
+    },
+    {
+        "id": 20,
+        "question": "Magnifying power of a concave lens is:",
+        "answer": "Always < 1",
+        "options": [
+            "Always < 1",
+            "Always > 1",
+            "Always = 1",
+            "None"
+        ]
+    },
+    {
+        "id": 21,
+        "question": "The least distance of distinct vision for a normal eye is:",
+        "answer": "25cm",
+        "options": [
+            "2.5cm",
+            "25cm",
+            "25m",
+            "Infinity"
+        ]
+    },
+    {
+        "id": 22,
+        "question": "The splitting of white light into different colours is called as:",
+        "answer": "Dispersion",
+        "options": [
+            "Reflection",
+            "Deviation",
+            "Dispersion",
+            "Refraction"
+        ]
+    },
+    {
+        "id": 23,
+        "question": "The amount of light entering the eye can be controlled by:",
+        "answer": "Pupil",
+        "options": [
+            "Pupil",
+            "Iris",
+            "Cornea",
+            "None"
+        ]
+    },
+    {
+        "id": 24,
+        "question": "The defect of the eye in which the eyeball becomes too long is:",
+        "answer": "Myopia",
+        "options": [
+            "Cataract",
+            "Hypermetropia",
+            "Myopia",
+            "Presbyopia"
+        ]
+    },
+    {
+        "id": 25,
+        "question": "The heating element of an electric iron is made up of:",
+        "answer": "Nichrome",
+        "options": [
+            "Copper",
+            "Aluminium",
+            "Iron",
+            "Nichrome"
+        ]
+    },
+    {
+        "id": 26,
+        "question": "The electrical resistance of insulators is:",
+        "answer": "Infinitely High",
+        "options": [
+            "Zero",
+            "High",
+            "Infinitely High",
+            "Low"
+        ]
+    },
+    {
+        "id": 27,
+        "question": "Electric power is inversely proportional to:",
+        "answer": "Resistance",
+        "options": [
+            "Voltage",
+            "Current",
+            "Temperature",
+            "Resistance"
+        ]
+    },
+    {
+        "id": 28,
+        "question": "The magnetic field is the strongest at ___ of magnet:",
+        "answer": "Both Poles",
+        "options": [
+            "North Pole",
+            "South Pole",
+            "Both Poles",
+            "Middle"
+        ]
+    },
+    {
+        "id": 29,
+        "question": "Material of the core of a strong magnet is:",
+        "answer": "Soft Iron",
+        "options": [
+            "Copper",
+            "Soft Iron",
+            "Steel",
+            "Aluminium"
+        ]
+    },
+    {
+        "id": 30,
+        "question": "Switches are connected to which wire?",
+        "answer": "Live Wire",
+        "options": [
+            "Neutral Wire",
+            "Live Wire",
+            "Earth Wire",
+            "Any Wire"
+        ]
+    },
+    {
+        "id": 31,
+        "question": "What is the best material to make permanent magnets?",
+        "answer": "Alnico",
+        "options": [
+            "Copper",
+            "Alnico",
+            "Iron",
+            "Aluminium"
+        ]
+    },
+    {
+        "id": 32,
+        "question": "Which of the following is the ultimate source of energy?",
+        "answer": "Sun",
+        "options": [
+            "Sun",
+            "Water",
+            "Fossil Fuels",
+            "Uranium"
+        ]
+    },
+    {
+        "id": 33,
+        "question": "Which of the following gases is the main constituent of natural gas?",
+        "answer": "Methane",
+        "options": [
+            "Propane",
+            "Butane",
+            "Methane",
+            "Ethane"
+        ]
+    },
+    {
+        "id": 34,
+        "question": "Which element is used in solar cells?",
+        "answer": "Silicon",
+        "options": [
+            "Carbon",
+            "Phosphorus",
+            "Sulphur",
+            "Silicon"
+        ]
+    },
+    {
+        "id": 35,
+        "question": "Which of the following has the highest Carbon content?",
+        "answer": "Anthracite",
+        "options": [
+            "Lignite",
+            "Peat",
+            "Anthracite",
+            "Bituminous"
+        ]
+    },
+    {
+        "id": 36,
+        "question": "What is the unit of Calorific value of a substance?",
+        "answer": "J/kg",
+        "options": [
+            "Jkg",
+            "Kcal",
+            "J/kg",
+            "J"
+        ]
+    },
+    {
+        "id": 37,
+        "question": "Which of the following is the SI unit of Force?",
+        "answer": "Both (b) and (c)",
+        "options": [
+            "Dyne",
+            "kgm/s^2",
+            "N",
+            "Both (b) and (c)"
+        ]
+    },
+    {
+        "id": 38,
+        "question": "1 Pie radian = ___ degree",
+        "answer": "180",
+        "options": [
+            "90",
+            "180",
+            "270",
+            "360"
+        ]
+    },
+    {
+        "id": 39,
+        "question": "Speed of light = ___ km/h:",
+        "answer": "1.08 x 10^9",
+        "options": [
+            "3 x 10^8",
+            "1.08 x 10^9",
+            "6.62 x 10^7",
+            "6.62 x 10^6"
+        ]
+    },
+    {
+        "id": 40,
+        "question": "The period of geostationary artificial satellite is:",
+        "answer": "24 hours",
+        "options": [
+            "12 hours",
+            "24 hours",
+            "36 hours",
+            "72 hours"
+        ]
+    },
+    {
+        "id": 41,
+        "question": "The first model of atom in 1898 was proposed by:",
+        "answer": "J.J. Thomson",
+        "options": [
+            "Albert Einstein",
+            "J.J. Thomson",
+            "Neils Bohr",
+            "Ernest Rutherford"
+        ]
+    },
+    {
+        "id": 42,
+        "question": "The first spectral series was discovered by:",
+        "answer": "Balmer",
+        "options": [
+            "Lyman",
+            "Paschen",
+            "Pfund",
+            "Balmer"
+        ]
+    },
+    {
+        "id": 43,
+        "question": "At resonance frequency the impedance in series LCR circuit is:",
+        "answer": "Minimum",
+        "options": [
+            "Maximum",
+            "Zero",
+            "Minimum",
+            "Infinity"
+        ]
+    },
+    {
+        "id": 44,
+        "question": "Quality factor and power factor both have the dimensions of:",
+        "answer": "Angle",
+        "options": [
+            "Angle",
+            "Time",
+            "Frequency",
+            "Work"
+        ]
+    },
+    {
+        "id": 45,
+        "question": "Who established that electric charge is quantised?",
+        "answer": "R.A. Millikan",
+        "options": [
+            "Wilhelm Rontgen",
+            "R.A. Millikan",
+            "William Crookes",
+            "J.J. Thomson"
+        ]
+    },
+    {
+        "id": 46,
+        "question": "The maximum value of photoelectric current is called:",
+        "answer": "Saturation Current",
+        "options": [
+            "Base Current",
+            "Emitter Current",
+            "Saturation Current",
+            "Collector Current"
+        ]
+    },
+    {
+        "id": 47,
+        "question": "Who invented the BALLPOINT PEN?",
+        "answer": "Biro Brothers",
+        "options": [
+            "Waterman Brothers",
+            "Bicc Brothers",
+            "Biro Brothers",
+            "Write Brothers"
+        ]
+    },
+    {
+        "id": 48,
+        "question": "Which scientist discovered the radioactive element Radium?",
+        "answer": "Marie Curie",
+        "options": [
+            "Albert Einstein",
+            "Isaac Newton",
+            "Benjamin Franklin",
+            "Marie Curie"
+        ]
+    },
+    {
+        "id": 49,
+        "question": "Which of the following was invented by Galileo?",
+        "answer": "Thermometer",
+        "options": [
+            "Barometer",
+            "Pendulum clock",
+            "Microscope",
+            "Thermometer"
+        ]
+    },
+    {
+        "id": 50,
+        "question": "Which of the following was invented by James Watt?",
+        "answer": "Steam Engine",
+        "options": [
+            "Diving bell",
+            "Steam Boat",
+            "Steam Engine",
+            "Hot Air Balloon"
+        ]
+    },
+    {
+        "id": 51,
+        "question": "What invention caused many deaths while testing it?",
+        "answer": "Parachute",
+        "options": [
+            "Ladders",
+            "Parachute",
+            "Dynamite",
+            "Race Cars"
+        ]
+    },
+    {
+        "id": 52,
+        "question": "Who invented Gramophone?",
+        "answer": "Thomas Alva Edison",
+        "options": [
+            "Thomas Alva Edison",
+            "Fahrenheit",
+            "Michael Faraday",
+            "Alexander Graham Bell"
+        ]
+    },
+    {
+        "id": 53,
+        "question": "When was Monopoly created?",
+        "answer": "1930s",
+        "options": [
+            "1940s",
+            "1930s",
+            "1920s",
+            "1950s"
+        ]
+    },
+    {
+        "id": 54,
+        "question": "When was the first elevator built?",
+        "answer": "1743",
+        "options": [
+            "1739",
+            "1760",
+            "1743",
+            "1785"
+        ]
+    },
+    {
+        "id": 55,
+        "question": "What did Enrico Fermi invent?",
+        "answer": "Nuclear Reactor",
+        "options": [
+            "Cyclotron",
+            "Betatron",
+            "X Ray Machine",
+            "Nuclear Reactor"
+        ]
+    },
+    {
+        "id": 56,
+        "question": "Where was the YO_YO invented?",
+        "answer": "Philippines",
+        "options": [
+            "France",
+            "England",
+            "United States",
+            "Philippines"
+        ]
+    },
+    {
+        "id": 57,
+        "question": "In which decade was the Transistor invented?",
+        "answer": "1940s",
+        "options": [
+            "1940s",
+            "1950s",
+            "1960s",
+            "1980s"
+        ]
+    },
+    {
+        "id": 58,
+        "question": "In which decade was the Internet first implemented?",
+        "answer": "1960s",
+        "options": [
+            "1940s",
+            "1950s",
+            "1960s",
+            "1980s"
+        ]
+    },
+    {
+        "id": 59,
+        "question": "Which of the following is used in Pencils?",
+        "answer": "Graphite",
+        "options": [
+            "Silicon",
+            "Charcoal",
+            "Phosphorous",
+            "Graphite"
+        ]
+    },
+    {
+        "id": 60,
+        "question": "The gas usually filled in the electric bulb is:",
+        "answer": "Nitrogen",
+        "options": [
+            "Nitrogen",
+            "Hydrogen",
+            "Oxygon",
+            "Carbon Dioxide"
+        ]
+    },
+    {
+        "id": 61,
+        "question": "The hardest substance available on earth is:",
+        "answer": "Diamond",
+        "options": [
+            "Gold",
+            "Iron",
+            "Diamond",
+            "Platinum"
+        ]
+    },
+    {
+        "id": 62,
+        "question": "Which of the following is used as a lubricant?",
+        "answer": "Graphite",
+        "options": [
+            "Graphite",
+            "Silica",
+            "Iron Oxide",
+            "Diamond"
+        ]
+    },
+    {
+        "id": 63,
+        "question": "The average salinity of sea water is:",
+        "answer": "3.5%",
+        "options": [
+            "3%",
+            "3.5%",
+            "2.5%",
+            "2%"
+        ]
+    },
+    {
+        "id": 64,
+        "question": "Galvanised iron sheets have a coating ofGalvanised iron sheets have a coating of:",
+        "answer": "Zinc",
+        "options": [
+            "Lead",
+            "Tin",
+            "Antimony",
+            "Zinc"
+        ]
+    },
+    {
+        "id": 65,
+        "question": "Heavy water is:",
+        "answer": "Deuterium Oxide",
+        "options": [
+            "Deuterium Oxide",
+            "PH7",
+            "Rain Water",
+            "Tritium Oxide"
+        ]
+    },
+    {
+        "id": 66,
+        "question": "The element common to all acids is:",
+        "answer": "Hydrogen",
+        "options": [
+            "Carbon",
+            "Sulphur",
+            "Hydrogen",
+            "Oxygen"
+        ]
+    },
+    {
+        "id": 67,
+        "question": "Monazite is an ore of:",
+        "answer": "Thorium",
+        "options": [
+            "Titanium",
+            "Iron",
+            "Thorium",
+            "Zirconium"
+        ]
+    },
+    {
+        "id": 68,
+        "question": "Carbon, Graphite and Diamond are together called:",
+        "answer": "Allotropes",
+        "options": [
+            "Allotropes",
+            "Isomers",
+            "Isotopes",
+            "Isomorphs"
+        ]
+    },
+    {
+        "id": 69,
+        "question": "Potassium Nitrate is used in:",
+        "answer": "Fertiliser",
+        "options": [
+            "Salt",
+            "Glass",
+            "Medicine",
+            "Fertiliser"
+        ]
+    },
+    {
+        "id": 70,
+        "question": "Soda water contains:",
+        "answer": "Carbon Dioxide",
+        "options": [
+            "Carbonic Acid",
+            "Nitrous Acid",
+            "Sulphuric Acid",
+            "Carbon Dioxide"
+        ]
+    },
+    {
+        "id": 71,
+        "question": "The most important ore of Aluminium is:",
+        "answer": "Bauxite",
+        "options": [
+            "Galena",
+            "Calamine",
+            "Calcite",
+            "Bauxite"
+        ]
+    },
+    {
+        "id": 72,
+        "question": "Which of the following is a liquid at room temperature?",
+        "answer": "Francium",
+        "options": [
+            "Francium",
+            "Cerium",
+            "Sodium",
+            "Lithium"
+        ]
+    },
+    {
+        "id": 73,
+        "question": "Sodium metal is kept under:",
+        "answer": "Kerosene",
+        "options": [
+            "Alcohol",
+            "Petrol",
+            "Water",
+            "Kerosene"
+        ]
+    },
+    {
+        "id": 74,
+        "question": "Identify the laughing gas:",
+        "answer": "Nitrous Oxide",
+        "options": [
+            "Nitrous Oxide",
+            "Sulphur Dioxide",
+            "Neon",
+            "Argon"
+        ]
+    },
+    {
+        "id": 75,
+        "question": "The filament of an electric bulb is made of",
+        "answer": "Tungsten",
+        "options": [
+            "Nichrome",
+            "Iron",
+            "Graphite",
+            "Tungsten"
+        ]
+    },
+    {
+        "id": 76,
+        "question": "Diamond is an allotrophe of:",
+        "answer": "Carbon",
+        "options": [
+            "Germanium",
+            "Silicon",
+            "Carbon",
+            "Sulphur"
+        ]
+    },
+    {
+        "id": 77,
+        "question": "Marsh gas is:",
+        "answer": "Methane",
+        "options": [
+            "Nitrogen",
+            "Ethane",
+            "Propane",
+            "Methane"
+        ]
+    },
+    {
+        "id": 78,
+        "question": "Air is a/an:",
+        "answer": "Mixture",
+        "options": [
+            "Compound",
+            "Element",
+            "Electrolyte",
+            "Mixture"
+        ]
+    },
+    {
+        "id": 79,
+        "question": "Balloons are filled with:",
+        "answer": "Helium",
+        "options": [
+            "Nitrogen",
+            "Argon",
+            "Helium",
+            "Oxygen"
+        ]
+    },
+    {
+        "id": 80,
+        "question": "Which metal pollutes the air of a big city?",
+        "answer": "Lead",
+        "options": [
+            "Chromium",
+            "Copper",
+            "Lead",
+            "Cadmium"
+        ]
+    },
+    {
+        "id": 81,
+        "question": "Which of the following is not an isotope of hydrogen?",
+        "answer": "Yttrium",
+        "options": [
+            "Protium",
+            "Deuterium",
+            "Tritium",
+            "Yttrium"
+        ]
+    },
+    {
+        "id": 82,
+        "question": "Which of the following is the lightest metal?",
+        "answer": "Lithium",
+        "options": [
+            "Lead",
+            "Lithium",
+            "Silver",
+            "Mercury"
+        ]
+    },
+    {
+        "id": 83,
+        "question": "Which of the following is an element?",
+        "answer": "Diamond",
+        "options": [
+            "Diamond",
+            "Emerald",
+            "Sapphire",
+            "Ruby"
+        ]
+    },
+    {
+        "id": 84,
+        "question": "What is the unit for measuring the amplitude of a sound?",
+        "answer": "Decibel",
+        "options": [
+            "Decibel",
+            "Coulomb",
+            "Hum",
+            "Cycles"
+        ]
+    },
+    {
+        "id": 85,
+        "question": "Fathom is the unit of:",
+        "answer": "Depth",
+        "options": [
+            "Depth",
+            "Sound",
+            "Frequency",
+            "Distance"
+        ]
+    },
+    {
+        "id": 86,
+        "question": "One fathom is equal to:",
+        "answer": "6 feet",
+        "options": [
+            "6 feet",
+            "6 meters",
+            "60 feet",
+            "100 cm"
+        ]
+    },
+    {
+        "id": 87,
+        "question": "One kilometre is equal to how many miles?",
+        "answer": "0.62",
+        "options": [
+            "0.62",
+            "0.5",
+            "1.6",
+            "0.84"
+        ]
+    },
+    {
+        "id": 88,
+        "question": "One horse power is equal to:",
+        "answer": "746 watt",
+        "options": [
+            "746 watt",
+            "786 watt",
+            "874 watt",
+            "976 watt"
+        ]
+    },
+    {
+        "id": 89,
+        "question": "Bar is the unit of:",
+        "answer": "Atmospheric Pressure",
+        "options": [
+            "Atmospheric Pressure",
+            "Temperature",
+            "Heat",
+            "Current"
+        ]
+    },
+    {
+        "id": 90,
+        "question": "One Joule is equal to:",
+        "answer": "10^7 erg",
+        "options": [
+            "10^8 erg",
+            "10^7 erg",
+            "10^6 erg",
+            "10^5 erg"
+        ]
+    },
+    {
+        "id": 91,
+        "question": "Kilowatt is a unit to measure:",
+        "answer": "Power",
+        "options": [
+            "Power",
+            "Current",
+            "Work",
+            "Electricity"
+        ]
+    },
+    {
+        "id": 92,
+        "question": "Electric current is measured by:",
+        "answer": "Ammeter",
+        "options": [
+            "Ammeter",
+            "Voltmeter",
+            "Anemometer",
+            "Commutator"
+        ]
+    },
+    {
+        "id": 93,
+        "question": "Knot is a unit of speed of which of the following?",
+        "answer": "Ship",
+        "options": [
+            "Ship",
+            "Aeroplane",
+            "Sound Waves",
+            "Light Waves"
+        ]
+    },
+    {
+        "id": 94,
+        "question": "Which of the following is used as a moderator in nuclear reactor?",
+        "answer": "Graphite",
+        "options": [
+            "Graphite",
+            "Radium",
+            "Thorium",
+            "Water"
+        ]
+    },
+    {
+        "id": 95,
+        "question": "Isotopes are separated by:",
+        "answer": "Distillation",
+        "options": [
+            "Crystallisation",
+            "Distillation",
+            "Filtration",
+            "Sublimation"
+        ]
+    },
+    {
+        "id": 96,
+        "question": "The wavelength of X Rays is of the order of:",
+        "answer": "1 Angstrom",
+        "options": [
+            "1 Angstrom",
+            "1 Micron",
+            "1 m",
+            "1 cm"
+        ]
+    },
+    {
+        "id": 97,
+        "question": "Mesons are found in:",
+        "answer": "Cosmic Rays",
+        "options": [
+            "Laser Beams",
+            "X Rays",
+            "Gamma Rays",
+            "Cosmic Rays"
+        ]
+    },
+    {
+        "id": 98,
+        "question": "The isotope of uranium capable of sustaining chain reaction is:",
+        "answer": "U 235",
+        "options": [
+            "U 235",
+            "U 238",
+            "U 289",
+            "U 245"
+        ]
+    },
+    {
+        "id": 99,
+        "question": "Nuclear fission is caused by the impact of:",
+        "answer": "Neutron",
+        "options": [
+            "Proton",
+            "Neutron",
+            "Deuteron",
+            "Electron"
+        ]
+    },
+    {
+        "id": 100,
+        "question": "How many colours the sunlight spectrum has?",
+        "answer": "Seven",
+        "options": [
+            "Four",
+            "Five",
+            "Six",
+            "Seve"
+        ]
+    }
+]
