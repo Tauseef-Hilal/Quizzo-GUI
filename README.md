@@ -21,3 +21,4 @@ __A basic GUI based quiz game written in `Python` and `PyQt6`.__
 *PyQt6==6.0.3*<br>
 *PyQt6-Qt6==6.0.2*<br>
 *PyQt6-sip==13.0.1*<br>
+*playsound==1.2.2*

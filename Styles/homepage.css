@@ -1,0 +1,25 @@
+QLabel{
+    color: cyan;
+    font-size: 50px;
+    font-family: Consolas;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+QPushButton{
+    font-size: 25px;
+    font-family: 'Segoe Script';
+    color: rgb(255, 255, 255);
+    background-color: #2246f7;
+    border: 4px solid #2246f7;
+    border-radius: 29px;
+    padding: 10px;
+    margin: 0px 300px;
+    margin-bottom: 200px;
+}
+QPushButton:hover{
+    border: 4px solid #ffd773;
+    background-color: #ffd773;
+    color: black;
+}
