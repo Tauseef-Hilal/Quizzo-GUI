@@ -1,19 +1,17 @@
 QLabel{
     color: cyan;
-    font-size: 50px;
-    font-family: Consolas;
+    font-size: 70px;
+    font-family: Pacifico;
     font-weight: bold;
-    font-style: italic;
     margin-top: 10px;
 }
 
 QPushButton{
     font-size: 25px;
-    font-family: 'Segoe Script';
+    font-family: 'Secular One';
     color: rgb(255, 255, 255);
-    background-color: #2246f7;
-    border: 4px solid #2246f7;
-    border-radius: 29px;
+    border: 2px solid #ffd773;
+    border-radius: 30px;
     padding: 10px;
     margin: 0px 300px;
     margin-bottom: 200px;

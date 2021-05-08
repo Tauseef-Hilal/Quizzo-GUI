@@ -15,7 +15,11 @@ class Control():
         self._question = question
         self.currentQuestion = {}
         self.answer = ""
+        self.notified = False
 
+        with open(join("Data", "highscore.txt")) as hScore:
+            self.highScore = int(hScore.read())
+        
         self._controlSignals()
     
     def _newQuestion(self):
@@ -27,11 +31,9 @@ class Control():
         questionDetail = self.currentQuestion['question']
         questionOptions = self.currentQuestion['options']
 
-        if len(questionDetail) > 50:
-            self._view.question_detail.setFixedSize(900, 250)
-        else:
-            self._view.question_detail.setFixedSize(900, 200)
-        
+        if len(questionDetail) > 65:
+            questionDetail = questionDetail[:65] + "-\n-" + questionDetail[65:]
+
         self._view.question_detail.setText(questionDetail)
         for i, option in enumerate(self._view.options.values()):
             option.setText(questionOptions[i])
@@ -43,11 +45,24 @@ class Control():
         btn = self._view.options[option]
 
         if btn.text() == self.answer:
-            playsound(join("Sounds", "correct.mp3"), block=False)
             self._view.score.setText(str(int(self._view.score.text())+5))
+            playsound(join("Sounds", "correct.mp3"), block=False)
+
+            if int(self._view.score.text()) > self.highScore and not self.notified:
+                playsound(join("Sounds", "ingame-highscore.mp3"), block=False)
+                self.notified = True
+
             self._newQuestion()
         else:
-            playsound(join("Sounds", "buzzer.mp3"), block=False)
+            playsound(join("Sounds", "wrong.mp3"), block=False)
+            
+            if int(self._view.score.text()) > self.highScore:
+                self.highScore = int(self._view.score.text())
+                self.notified = False
+
+                with open(join("Data", "highscore.txt"), mode="w") as score:
+                    score.write(str(self.highScore))
+
             self._view.score.setText("0")
             self._view._centralWidget.setCurrentWidget(self._view.homepage)
     

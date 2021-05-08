@@ -13,7 +13,6 @@ from PyQt6.QtWidgets import (
     QMainWindow,
     QPushButton,
     QStackedWidget,
-    QTextEdit,
     QVBoxLayout,
     QGridLayout,
     QWidget,
@@ -39,7 +38,7 @@ class View(QMainWindow):
             self.setStyleSheet(style.read())
         
         self.setWindowTitle("Quizzo")
-        self.setFixedSize(900, 550)
+        self.setFixedSize(1000, 500)
         self.setWindowIcon(QIcon(icon))
 
         # Crearte pages
@@ -85,9 +84,8 @@ class View(QMainWindow):
         self.score.setReadOnly(True)
         self.quizLayout.addWidget(self.score)
 
-        self.question_detail = QTextEdit("Question #0")
+        self.question_detail = QLabel("Question #0")
         self.question_detail.setAlignment(Qt.Alignment.AlignCenter)
-        self.question_detail.setReadOnly(True)
         self.quizLayout.addWidget(self.question_detail)
 
         optionsWidget = QWidget()
@@ -103,8 +101,11 @@ class View(QMainWindow):
 
         for btnText, pos in self.options.items():
             self.options[btnText] = QPushButton(f"Option {btnText}")
-            self.options[btnText].setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
-            optionLayout.addWidget(self.options[btnText], *pos)
+
+            btn = self.options[btnText]
+            btn.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
+
+            optionLayout.addWidget(btn, *pos)
         
         self.quizLayout.addWidget(optionsWidget)
 
