@@ -1,17 +1,16 @@
 QLineEdit{
     color: rgb(226, 252, 255);
     border: 0px;
-    background-color: #2dcb74;
-    font-size: 30px;
+    font-size: 75px;
     font-family: 'Secular One';
-    margin: 0px 450px;
+    margin-left: 50px;
 }
 
 QLabel{
     color: rgb(226, 252, 255);
     font-size: 30px;
     font-family: 'Secular One';
-    margin: 0px;
+    margin: 80px 150px;
 }
 
 QPushButton{
@@ -20,7 +19,7 @@ QPushButton{
     border-radius: 40px;
     font-size: 25px;
     font-family: 'Pacifico';
-    margin: 10px 70px;
+    margin: 10px 300px;
     padding: 20px;
 }
 QPushButton:hover{

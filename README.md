@@ -8,13 +8,15 @@ __A basic GUI based quiz game written in `Python` and `PyQt6`.__
 
 ## `--SYSTEM Requirements--`
 * **OS**: Any
-* **RAM**: 15MB
+* **RAM**: ~ 15MB
+* **ROM**: ~ 150MB
 * ***Python and other dependencies must be installed!***
 
 
 ## `--Installation--`
 * Download the repository.
 * Run **`install.py`** to install dependencies.
+* Head to the **`Fonts`** folder to **install the required fonts.**
 
 
 ## `--Depends On--`

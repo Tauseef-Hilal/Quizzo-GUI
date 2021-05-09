@@ -14,8 +14,8 @@ from os.path import join
 class Question:
     """Read question data"""
 
-    def __init__(self, filename):
-        self.filename = join("Data", filename)
+    def __init__(self):
+        self.filename = join("Data", "question-data.json")
         self.question_list = []
 
         # Read the json data

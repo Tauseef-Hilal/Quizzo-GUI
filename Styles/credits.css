@@ -1,23 +1,21 @@
 QLabel{
-    color: #ffbf00;
-    font-size: 80px;
-    font-family: Pacifico;
-    font-weight: bold;
-    margin: 10px;
+    color: rgb(188, 232, 255);
+    border: 0px;
+    font-size: 20px;
+    font-family: 'Secular One';
+    margin: 10px 30px;
 }
 
 QPushButton{
-    color: rgb(226, 252, 255);
+    color: rgb(188, 232, 255);
     border: 1.5px solid #ff256a;
     border-radius: 40px;
     font-size: 25px;
     font-family: 'Pacifico';
-    margin: 10px 350px;
+    margin: 10px 300px;
     padding: 20px;
 }
 QPushButton:hover{
     color: black;
     background-color: #ff256a;
-    border: 1.5px solid #ff256a;
-    font-weight: bold;
 }
