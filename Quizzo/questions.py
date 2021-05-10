@@ -24,7 +24,7 @@ class Question:
 
         # Shuffle question list
         shuffle(self.question_list)
-    
+
     def _getQuestion(self):
         """Send a question dict to the controller"""
         return self.question_list.pop(0)

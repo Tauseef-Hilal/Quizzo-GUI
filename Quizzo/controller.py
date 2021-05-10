@@ -8,7 +8,7 @@ from playsound import playsound
 from Quizzo.questions import Question
 
 
-class Control():
+class Control:
     """Controller class for the game"""
 
     def __init__(self, view):
@@ -27,15 +27,15 @@ class Control():
         except FileNotFoundError:
             with open(join("Data", "highscore.txt"), mode="w") as hScore:
                 hScore.write(str(self.highScore))
-                
+
         self._controlSignals()
-    
+
     def _newQuestion(self):
         """Grab a question from the question list"""
-        
+
         try:
             self.currentQuestion = self._questionObj._getQuestion()
-        
+
         except IndexError:
             with open(join("Data", "highscore.txt"), mode="w") as score:
                 score.write(str(self.currentScore))
@@ -43,10 +43,10 @@ class Control():
             playsound(join("Sounds", "after-highscore.mp3"), block=False)
             return self._mainMenu()
 
-        self.questionFamiliarity = self.currentQuestion['id']
-        self.answer = self.currentQuestion['answer']
-        questionDetail = self.currentQuestion['question']
-        questionOptions = self.currentQuestion['options']
+        self.questionFamiliarity = self.currentQuestion["id"]
+        self.answer = self.currentQuestion["answer"]
+        questionDetail = self.currentQuestion["question"]
+        questionOptions = self.currentQuestion["options"]
 
         if len(questionDetail) > 65:
             questionDetail = questionDetail[:65] + "-\n-" + questionDetail[65:]
@@ -54,9 +54,9 @@ class Control():
         self._view.question_detail.setText(questionDetail)
         for i, option in enumerate(self._view.options.values()):
             option.setText(questionOptions[i])
-        
+
         self._view._centralWidget.setCurrentWidget(self._view.quizpage)
-    
+
     def _checkAns(self, option):
         """Check user guess"""
         btn = self._view.options[option]
@@ -73,7 +73,7 @@ class Control():
             self._newQuestion()
         else:
             playsound(join("Sounds", "wrong.mp3"), block=False)
-            
+
             self._view._score.setText(str(self.currentScore))
             if self.currentScore > self.highScore:
                 playsound(join("Sounds", "after-highscore.mp3"), block=False)
@@ -85,7 +85,7 @@ class Control():
                     score.write(str(self.highScore))
 
             self._view._centralWidget.setCurrentWidget(self._view.wrongpage)
-    
+
     def _restartGame(self):
         """Restart game"""
         self._questionObj = Question()
@@ -100,25 +100,25 @@ class Control():
         self.currentScore = 0
         self._view.score.setText("0")
         self._view._centralWidget.setCurrentWidget(self._view.homepage)
-    
+
     def _showCredits(self):
         """Show Credits page"""
         self._view._centralWidget.setCurrentWidget(self._view.creditspage)
-    
+
     def _controlSignals(self):
         """Control signals"""
-        
+
         # Homepage
         button = self._view.buttons
-        button['Play'].clicked.connect(self._newQuestion)
-        button['Credits'].clicked.connect(self._showCredits)
+        button["Play"].clicked.connect(self._newQuestion)
+        button["Credits"].clicked.connect(self._showCredits)
 
         # Quizpage
         option = self._view.options
-        option['A'].clicked.connect(partial(self._checkAns, 'A'))
-        option['B'].clicked.connect(partial(self._checkAns, 'B'))
-        option['C'].clicked.connect(partial(self._checkAns, 'C'))
-        option['D'].clicked.connect(partial(self._checkAns, 'D'))
+        option["A"].clicked.connect(partial(self._checkAns, "A"))
+        option["B"].clicked.connect(partial(self._checkAns, "B"))
+        option["C"].clicked.connect(partial(self._checkAns, "C"))
+        option["D"].clicked.connect(partial(self._checkAns, "D"))
 
         # Wrongpage
         choice = self._view.choices

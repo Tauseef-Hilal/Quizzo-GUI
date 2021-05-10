@@ -11,10 +11,10 @@ from Quizzo.view import View
 
 def main():
     """Start of the program"""
-    
+
     # Create QApplication object
     app = QApplication([])
-    
+
     # Initiate UI
     viewObj = View()
     viewObj.show()
@@ -24,8 +24,6 @@ def main():
 
     # Execute app
     sys.exit(app.exec())
-    
-
 
 
 if __name__ == "__main__":

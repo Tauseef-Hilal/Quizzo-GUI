@@ -37,7 +37,7 @@ class View(QMainWindow):
 
         with open(stylesheet) as style:
             self.setStyleSheet(style.read())
-        
+
         self.setWindowTitle("Quizzo")
         self.setFixedSize(1000, 500)
         self.setWindowIcon(QIcon(icon))
@@ -47,7 +47,7 @@ class View(QMainWindow):
         self._quiz()
         self._credits()
         self._wrong()
-    
+
     def _home(self):
         """Create Homepage"""
         stylesheet = join("Styles", "homepage.css")
@@ -60,19 +60,16 @@ class View(QMainWindow):
         logo.setAlignment(Qt.Alignment.AlignCenter)
         self.homeLayout.addWidget(logo)
 
-        self.buttons = {
-            "Play": 0,
-            "Credits": 1
-        }
+        self.buttons = {"Play": 0, "Credits": 1}
 
         for btnText, pos in self.buttons.items():
             self.buttons[btnText] = QPushButton(btnText)
             self.buttons[btnText].setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
             self.homeLayout.addWidget(self.buttons[btnText], pos)
-        
+
         with open(stylesheet) as style:
             self.homepage.setStyleSheet(style.read())
-        
+
         self._centralWidget.addWidget(self.homepage)
 
     def _quiz(self):
@@ -96,12 +93,7 @@ class View(QMainWindow):
         optionLayout = QGridLayout()
         optionsWidget.setLayout(optionLayout)
 
-        self.options = {
-            'A': (0, 0),
-            'B': (0, 1),
-            'C': (1, 0),
-            'D': (1, 1)
-        }
+        self.options = {"A": (0, 0), "B": (0, 1), "C": (1, 0), "D": (1, 1)}
 
         for btnText, pos in self.options.items():
             self.options[btnText] = QPushButton(f"Option {btnText}")
@@ -110,14 +102,14 @@ class View(QMainWindow):
             btn.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
 
             optionLayout.addWidget(btn, *pos)
-        
+
         self.quizLayout.addWidget(optionsWidget)
 
         with open(stylesheet) as style:
             self.quizpage.setStyleSheet(style.read())
 
         self._centralWidget.addWidget(self.quizpage)
-    
+
     def _credits(self):
         """Credits Page"""
         stylesheet = join("Styles", "credits.css")
@@ -141,7 +133,7 @@ class View(QMainWindow):
         Project Link: https://github.com/Tauseef-Hilal/Quizzo-GUI
         ==================================
         """
-        
+
         credits = QLabel(CREDITS)
         credits.setAlignment(Qt.Alignment.AlignCenter)
         self.creditsLayout.addWidget(credits)
@@ -152,7 +144,7 @@ class View(QMainWindow):
 
         with open(stylesheet) as style:
             self.creditspage.setStyleSheet(style.read())
-        
+
         self._centralWidget.addWidget(self.creditspage)
 
     def _wrong(self):
@@ -185,11 +177,11 @@ class View(QMainWindow):
 
         for btnText, pos in self.choices.items():
             self.choices[btnText] = QPushButton(btnText)
-            
+
             btn = self.choices[btnText]
             btn.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
             self.wrongLayout.addWidget(btn, pos)
-        
+
         with open(stylesheet) as style:
             self.wrongpage.setStyleSheet(style.read())
 
