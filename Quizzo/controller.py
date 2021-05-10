@@ -16,7 +16,6 @@ class Control:
         self._questionObj = Question()
         self.currentQuestion = {}
         self.answer = ""
-        self.questionFamiliarity = 0
         self.notified = False
         self.currentScore = int(self._view.score.text())
         self.highScore = 0
@@ -43,7 +42,6 @@ class Control:
             playsound(join("Sounds", "after-highscore.mp3"), block=False)
             return self._mainMenu()
 
-        self.questionFamiliarity = self.currentQuestion["id"]
         self.answer = self.currentQuestion["answer"]
         questionDetail = self.currentQuestion["question"]
         questionOptions = self.currentQuestion["options"]

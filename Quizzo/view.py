@@ -60,11 +60,15 @@ class View(QMainWindow):
         logo.setAlignment(Qt.Alignment.AlignCenter)
         self.homeLayout.addWidget(logo)
 
-        self.buttons = {"Play": 0, "Credits": 1}
+        self.buttons = {
+            "Play": 0,
+            "Credits": 1
+        }
 
         for btnText, pos in self.buttons.items():
             self.buttons[btnText] = QPushButton(btnText)
-            self.buttons[btnText].setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
+            self.buttons[btnText].setCursor(
+                QCursor(Qt.CursorShape.PointingHandCursor))
             self.homeLayout.addWidget(self.buttons[btnText], pos)
 
         with open(stylesheet) as style:
@@ -93,7 +97,12 @@ class View(QMainWindow):
         optionLayout = QGridLayout()
         optionsWidget.setLayout(optionLayout)
 
-        self.options = {"A": (0, 0), "B": (0, 1), "C": (1, 0), "D": (1, 1)}
+        self.options = {
+            'A': (0, 0),
+            'B': (0, 1),
+            'C': (1, 0),
+            'D': (1, 1)
+        }
 
         for btnText, pos in self.options.items():
             self.options[btnText] = QPushButton(f"Option {btnText}")
