@@ -16,6 +16,7 @@ class Control():
         self._questionObj = Question()
         self.currentQuestion = {}
         self.answer = ""
+        self.questionFamiliarity = 0
         self.notified = False
         self.currentScore = int(self._view.score.text())
         self.highScore = 0
@@ -35,10 +36,14 @@ class Control():
         try:
             self.currentQuestion = self._questionObj._getQuestion()
         
-        # TODO: Congratulations Page
         except IndexError:
-            pass
+            with open(join("Data", "highscore.txt"), mode="w") as score:
+                score.write(str(self.currentScore))
 
+            playsound(join("Sounds", "after-highscore.mp3"), block=False)
+            return self._mainMenu()
+
+        self.questionFamiliarity = self.currentQuestion['id']
         self.answer = self.currentQuestion['answer']
         questionDetail = self.currentQuestion['question']
         questionOptions = self.currentQuestion['options']
@@ -79,13 +84,13 @@ class Control():
                 with open(join("Data", "highscore.txt"), mode="w") as score:
                     score.write(str(self.highScore))
 
-            self._view.score.setText("0")
             self._view._centralWidget.setCurrentWidget(self._view.wrongpage)
     
     def _restartGame(self):
         """Restart game"""
         self._questionObj = Question()
         self.currentScore = 0
+        self._view.score.setText("0")
         self._view._centralWidget.setCurrentWidget(self._view.quizpage)
         self._newQuestion()
 
@@ -93,6 +98,7 @@ class Control():
         """Head to main menu"""
         self._questionObj = Question()
         self.currentScore = 0
+        self._view.score.setText("0")
         self._view._centralWidget.setCurrentWidget(self._view.homepage)
     
     def _showCredits(self):
