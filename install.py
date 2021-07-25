@@ -1,5 +1,3 @@
-"""Install the dependencies"""
-
 import os
 import sys
 import time

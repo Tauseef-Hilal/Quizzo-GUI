@@ -33,7 +33,7 @@ class View(QMainWindow):
 
         # Customize window
         stylesheet = join("Styles", "main_window.css")
-        icon = join("Icon", "icon.jpg")
+        icon = join("Icon", "icon.ico")
 
         with open(stylesheet) as style:
             self.setStyleSheet(style.read())
@@ -57,7 +57,7 @@ class View(QMainWindow):
         self.homepage.setLayout(self.homeLayout)
 
         logo = QLabel("Welcome To Quizzo")
-        logo.setAlignment(Qt.Alignment.AlignCenter)
+        logo.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self.homeLayout.addWidget(logo)
 
         self.buttons = {
@@ -85,12 +85,12 @@ class View(QMainWindow):
         self.quizpage.setLayout(self.quizLayout)
 
         self.score = QLineEdit("0")
-        self.score.setAlignment(Qt.Alignment.AlignCenter)
+        self.score.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self.score.setReadOnly(True)
         self.quizLayout.addWidget(self.score)
 
         self.question_detail = QLabel("Question #0")
-        self.question_detail.setAlignment(Qt.Alignment.AlignCenter)
+        self.question_detail.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self.quizLayout.addWidget(self.question_detail)
 
         optionsWidget = QWidget()
@@ -144,7 +144,7 @@ class View(QMainWindow):
         """
 
         credits = QLabel(CREDITS)
-        credits.setAlignment(Qt.Alignment.AlignCenter)
+        credits.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self.creditsLayout.addWidget(credits)
 
         self.menuBtn = QPushButton("Main Menu")
@@ -169,12 +169,12 @@ class View(QMainWindow):
         messageWidget.setLayout(messageLayout)
 
         message = QLabel("OOPS! Wrong Answer.\nBetter Luck Next Time!")
-        message.setAlignment(Qt.Alignment.AlignRight)
+        message.setAlignment(Qt.AlignmentFlag.AlignRight)
         messageLayout.addWidget(message)
 
         self._score = QLineEdit()
         self._score.setReadOnly(True)
-        self._score.setAlignment(Qt.Alignment.AlignLeft)
+        self._score.setAlignment(Qt.AlignmentFlag.AlignLeft)
         messageLayout.addWidget(self._score)
 
         self.wrongLayout.addWidget(messageWidget)
