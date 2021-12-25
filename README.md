@@ -7,7 +7,7 @@ __A basic GUI based quiz game written in `Python` and `PyQt6`.__
 
 
 ## System Requirements
-* **OS**: Windows
+* **OS**: Tested on Windows and Mac
 * **RAM**: ~ 15MB
 * **ROM**: ~ 150MB
 * ***Python and other dependencies must be installed!***
@@ -20,7 +20,8 @@ __A basic GUI based quiz game written in `Python` and `PyQt6`.__
 
 
 ## Depends On
-*PyQt6==6.0.3*<br>
-*PyQt6-Qt6==6.0.2*<br>
-*PyQt6-sip==13.0.1*<br>
-*playsound==1.2.2*
+*playsound==1.3.0*<br>
+*pyobjc==8.1*<br>
+*PyQt6==6.2.2*<br>
+*PyQt6-Qt6==6.2.2*<br>
+*PyQt6-sip==13.2.0*

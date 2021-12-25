@@ -1,3 +1,4 @@
 env
 .vscode
 Data/highscore.txt
+Quizzo/__pycache__
