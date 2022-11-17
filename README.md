@@ -1,16 +1,6 @@
 # Quizzo (GUI)
 
-## About
-__A basic GUI based quiz game written in `Python` and `PyQt6`.__
-
-> Written by `Tauseef Hilal Tantary`. *A beginner Python Programmer.*
-
-
-## System Requirements
-* **OS**: Tested on Windows and Mac
-* **RAM**: ~ 15MB
-* **ROM**: ~ 150MB
-* ***Python and other dependencies must be installed!***
+A basic GUI based quiz game written in `Python` and `PyQt6`.
 
 
 ## Installation
